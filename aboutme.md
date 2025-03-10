@@ -3,6 +3,7 @@ layout: page
 title: About me
 subtitle: Why you'd want to go on a date with me
 ---
+![alt text](/assets/img/crepe.jpg "Background Image")
 
 My name is Inigo Montoya. I have the following qualities:
 
