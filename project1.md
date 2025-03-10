@@ -14,7 +14,7 @@ Scalability: Easily scalable by adding more nodes to the system.
 Simplified management: Centralized management through a single interface:
 
 
-* [HCI-1100 Proxmox 2-node cluster](#hci-1100)
+* [HCI-1100 Proxmox 2-node cluster](#hci-1100-proxmox-2-node-cluster)
   * [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
   * [HCI-1100-101 Proxmox VE setup procedure](aboutme.md)
   * HCI-1100-102 Setup Network bridging
