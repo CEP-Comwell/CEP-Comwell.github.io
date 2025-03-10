@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project 1
+title: HCI
 subtitle: Hyper-converged Infrastructure
 ---
 
