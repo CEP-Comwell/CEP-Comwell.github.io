@@ -15,29 +15,29 @@ Simplified management: Centralized management through a single interface:
 
 
 
-* [HCI-1100 Proxmox 2-node cluster](#hci-1100-proxmox-2-node-cluster)
-  * [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
-  * [HCI-1100-101 Proxmox VE setup procedure](#hci-1100-101-proxmox-ve-setup-procedure)
-  * HCI-1100-102 Setup Network bridging
-  * HCI-1100-103 Setup NFS to shared storage
-  * HCI-1100-104 Test Network Performance
-  * HCI-1100-105 Create Cloudinit Template
-  * HCI-1100-106 Install Docker host vm
-* HCI-1200 TrueNAS Shared storage
-  * HCI-1200-100 Setup Network bridging
-  * HCI-1200-101 Setup Boot pool & initial config
-  * HCI-1200-102 Setup ZFS storage pool
-  * HCI-1200-103 Setup dataset
-  * HCI-1200-104 Setup Data Protection
-  * HCI-1200-105 Setup NFS share
-  * HCI-1200-106 Test Network Performance
-* HCI-1300 Setup Ansible Controller node
-  * HCI-1300-100 Setup Credentials Vault
-  * HCI-1300-101 Configure DevOps Groups
-  * HCI-1300-102 Connect to Git repository
-* HCI-1400 Setup DevOps Secure Access
-  * HCI-1400-100 Configure ZTNA Access Policies
-  * HCI-1400-101 Deploy ZTNA Router to DevOps zone
+1. [HCI-1100 Proxmox 2-node cluster](#hci-1100-proxmox-2-node-cluster)
+  1. [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
+  1. [HCI-1100-101 Proxmox VE setup procedure](#hci-1100-101-proxmox-ve-setup-procedure)
+  1. HCI-1100-102 Setup Network bridging
+  1. HCI-1100-103 Setup NFS to shared storage
+  1. HCI-1100-104 Test Network Performance
+  1. HCI-1100-105 Create Cloudinit Template
+  1. HCI-1100-106 Install Docker host vm
+1. HCI-1200 TrueNAS Shared storage
+  1. HCI-1200-100 Setup Network bridging
+  1. HCI-1200-101 Setup Boot pool & initial config
+  1. HCI-1200-102 Setup ZFS storage pool
+  1. HCI-1200-103 Setup dataset
+  1. HCI-1200-104 Setup Data Protection
+  1. HCI-1200-105 Setup NFS share
+  1. HCI-1200-106 Test Network Performance
+1. HCI-1300 Setup Ansible Controller node
+  1. HCI-1300-100 Setup Credentials Vault
+  1. HCI-1300-101 Configure DevOps Groups
+  1. HCI-1300-102 Connect to Git repository
+1. HCI-1400 Setup DevOps Secure Access
+  1. HCI-1400-100 Configure ZTNA Access Policies
+  1. HCI-1400-101 Deploy ZTNA Router to DevOps zone
 
 
 What else do you need?
@@ -54,7 +54,7 @@ What else do you need?
       * Configure storage
         * Choose Other and select ZFS (RAID1)
         * Select /dev/nvme0n1 and /dev/nvme1n1
-        * Unselect any additional harddisk and click on OK to continue
+        * Unselect any additional harddisk and click on OK to continue ![](/assets/img/pve_storage.png)
         * Setup a default admin password for the Root user
           * Update IT Glue and Bitwarden collections
         * Reboot: Once the installation is complete, connect to the web GUI  on the default port 8006 https://172.16.10.20:8006
