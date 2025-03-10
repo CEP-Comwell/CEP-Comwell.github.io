@@ -14,17 +14,17 @@ Scalability: Easily scalable by adding more nodes to the system.
 Simplified management: Centralized management through a single interface:
 
 
-- HCI-1100 Proxmox 2-node cluster
-  -- HCI-1100-100 Flash installer to USB
-  -- HCI-1100-101 Proxmox VE setup procedure
+* HCI-1100 Proxmox 2-node cluster
+ * HCI-1100-100 Flash installer to USB
+ * HCI-1100-101 Proxmox VE setup procedure
   -- HCI-1100-102 Setup Network bridging
   -- HCI-1100-103 Setup NFS to shared storage
   -- HCI-1100-104 Test Network Performance
   -- HCI-1100-105 Create Cloudinit Template
   -- HCI-1100-106 Install Docker host vm
-- HCI-1200 TrueNAS Shared storage
-  -- HCI-1200-100 Setup Network bridging
-  -- HCI-1200-101 Setup Boot pool & initial config
+* HCI-1200 TrueNAS Shared storage
+  * HCI-1200-100 Setup Network bridging
+  * HCI-1200-101 Setup Boot pool & initial config
   -- HCI-1200-102 Setup ZFS storage pool
   -- HCI-1200-103 Setup dataset
   -- HCI-1200-104 Setup Data Protection
