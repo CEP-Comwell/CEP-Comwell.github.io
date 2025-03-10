@@ -22,7 +22,7 @@ author: CEP
 navbar-links:
   About Me: "aboutme"
   HCI: "project1"
-  FAQ: "faq.md"
+  FAQ: "faq"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
