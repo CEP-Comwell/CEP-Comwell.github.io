@@ -45,6 +45,19 @@ What else do you need?
 ### HCI-1100 Proxmox 2-node cluster
   * [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
   * #### HCI-1100-101 Proxmox VE setup procedure
+    * Configure Network:
+      * Configure a hostname i.e. pve1.comwell.edgesec.ca
+      * Select NIC0 as primary on VMBR0
+        * Assign static ip address 172.16.10.x/24 with gateway 172.16.10.1
+        * Assign dns to 9.9.9.9 (Quad9)
+      * Set timezone America/Vancouver
+      * Configure storage
+        * Choose Other and select ZFS (RAID1)
+        * Select /dev/nvme0n1 and /dev/nvme1n1
+        * Unselect any additional harddisk and click on OK to continue
+        * Setup a default admin password for the Root user
+          * Update IT Glue and Bitwarden collections
+        * Reboot: Once the installation is complete, connect to the web GUI  on the default port 8006 https://172.16.10.20:8006
   * HCI-1100-102 Setup Network bridging
   * HCI-1100-103 Setup NFS to shared storage
   * HCI-1100-104 Test Network Performance
