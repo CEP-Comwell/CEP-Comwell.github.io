@@ -14,7 +14,7 @@ Scalability: Easily scalable by adding more nodes to the system.
 Simplified management: Centralized management through a single interface:
 
 
-* HCI-1100 Proxmox 2-node cluster
+* [HCI-1100 Proxmox 2-node cluster](#hci-1100)
   * [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
   * [HCI-1100-101 Proxmox VE setup procedure](aboutme.md)
   * HCI-1100-102 Setup Network bridging
@@ -41,6 +41,14 @@ Simplified management: Centralized management through a single interface:
 
 What else do you need?
 
+### HCI-1100 Proxmox 2-node cluster
+  * [HCI-1100-100 Flash installer to USB](https://etcher-docs.balena.io/?&){:target="_blank"}
+  * [HCI-1100-101 Proxmox VE setup procedure](aboutme.md)
+  * HCI-1100-102 Setup Network bridging
+  * HCI-1100-103 Setup NFS to shared storage
+  * HCI-1100-104 Test Network Performance
+  * HCI-1100-105 Create Cloudinit Template
+  * HCI-1100-106 Install Docker host vm
 ### My story
 
 To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
