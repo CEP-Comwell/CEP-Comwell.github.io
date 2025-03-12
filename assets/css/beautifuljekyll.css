@@ -912,7 +912,19 @@ pre {
   border-radius: 0;
   border-right: 2px solid #444;
 }
-
+.copy-code-button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Add Copy + Paste button
+.copy-code-button:hover {
+  background-color: #0056b3;
+}
 /* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
 .lineno {
   -webkit-user-select: none;
