@@ -64,38 +64,11 @@ What else do you need?
   * HCI-1100-105 Create Cloudinit Template
   * HCI-1100-106 Install Docker host vm
 ### Install Docker host
+Here's a code chunk:
 
-# &lt;clipboard-copy&gt; element
-
-Copy element text content or input values to the clipboard.
-
-## Installation
-
-```
-$ npm install --save @github/clipboard-copy-element
-```
-
-## Usage
-
-### Script
-
-Import as ES modules:
-
-```js
-import '@github/clipboard-copy-element'
-```
-
-With a script tag:
-
-```html
-<script type="module" src="./node_modules/@github/clipboard-copy-element/dist/index.js">
-```
-
-### Markup
-
-```html
-<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
-  Copy path
-</clipboard-copy>
-<div id="blob-path">src/index.js</div>
-```
+~~~
+var foo = function(x) {
+  return(x + 5);
+}
+foo(3)
+~~~
