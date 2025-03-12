@@ -66,7 +66,7 @@ What else do you need?
 ### Install Docker host
 Here's a code chunk:
 
-~~~
+~~~js
 var foo = function(x) {
   return(x + 5);
 }
