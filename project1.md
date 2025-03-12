@@ -68,7 +68,7 @@ Here's a code chunk:
 
 ~~~js
 var foo = function(x) {
-  return(x + 5);
+  return(x + 7);
 }
 foo(3)
 ~~~
