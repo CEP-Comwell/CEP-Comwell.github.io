@@ -66,9 +66,8 @@ What else do you need?
 ### Install Docker host
   1. Install Docker
 
-#####
-
-        curl -fsSL https://download.docker.com/linux/ubuntu/gpg
+#####       
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg
 
   text
      
