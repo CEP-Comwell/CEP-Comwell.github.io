@@ -65,7 +65,8 @@ What else do you need?
   * HCI-1100-106 Install Docker host vm
 ### Install Docker host
   1. Install Docker
-  #####
+
+#####
         curl -fsSL https://download.docker.com/linux/ubuntu/gpg
 
   text
