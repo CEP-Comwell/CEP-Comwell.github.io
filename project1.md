@@ -65,9 +65,6 @@ What else do you need?
   * HCI-1100-106 Install Docker host vm
 ### Install Docker host
 
-<pre>
-  <code>
-    def hello_world():
-        print("Hello, world!")
-  </code>
-</pre>
+```
+  test code
+```
