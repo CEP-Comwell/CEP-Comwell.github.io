@@ -64,11 +64,22 @@ What else do you need?
   * HCI-1100-105 Create Cloudinit Template
   * HCI-1100-106 Install Docker host vm
 ### Install Docker host
-Here's a code chunk:
 
-~~~js
-var foo = function(x) {
-  return(x + 7);
-}
-foo(3)
-~~~
+<pre>
+  <code id="code-block">
+    def hello_world():
+        print("Hello, world!")
+  </code>
+  <button onclick="copyToClipboard()">Copy</button>
+</pre>
+
+<script>
+  function copyToClipboard() {
+    var code = document.getElementById("code-block").innerText;
+    navigator.clipboard.writeText(code).then(function() {
+      alert('Copied to clipboard');
+    }, function(err) {
+      console.error('Could not copy text: ', err);
+    });
+  }
+</script>
