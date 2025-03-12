@@ -66,20 +66,8 @@ What else do you need?
 ### Install Docker host
 
 <pre>
-  <code id="code-block">
+  <code>
     def hello_world():
         print("Hello, world!")
   </code>
-  <button onclick="copyToClipboard()">Copy</button>
 </pre>
-
-<script>
-  function copyToClipboard() {
-    var code = document.getElementById("code-block").innerText;
-    navigator.clipboard.writeText(code).then(function() {
-      alert('Copied to clipboard');
-    }, function(err) {
-      console.error('Could not copy text: ', err);
-    });
-  }
-</script>
