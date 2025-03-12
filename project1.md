@@ -65,13 +65,37 @@ What else do you need?
   * HCI-1100-106 Install Docker host vm
 ### Install Docker host
 
-``` Install Docker
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg
-```
-```
-require_relative "helper"
+# &lt;clipboard-copy&gt; element
 
-  curl -fsSL https://download.docker.com/linux/ubuntu/gpg
+Copy element text content or input values to the clipboard.
+
+## Installation
+
 ```
-     
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+$ npm install --save @github/clipboard-copy-element
+```
+
+## Usage
+
+### Script
+
+Import as ES modules:
+
+```js
+import '@github/clipboard-copy-element'
+```
+
+With a script tag:
+
+```html
+<script type="module" src="./node_modules/@github/clipboard-copy-element/dist/index.js">
+```
+
+### Markup
+
+```html
+<clipboard-copy for="blob-path" class="btn btn-sm BtnGroup-item">
+  Copy path
+</clipboard-copy>
+<div id="blob-path">src/index.js</div>
+```
