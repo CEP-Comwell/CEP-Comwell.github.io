@@ -68,8 +68,9 @@ What else do you need?
 ``` Install Docker
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg
 ```
-require_relative "helper"
 ```
+require_relative "helper"
+
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg
 ```
      
