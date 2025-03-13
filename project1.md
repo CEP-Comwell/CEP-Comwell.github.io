@@ -58,11 +58,13 @@ What else do you need?
       1. Setup a default admin password for the Root user
           1. Update IT Glue and Bitwarden collections
       1. Reboot: Once the installation is complete, connect to the web GUI  on the default port 8006 https://172.16.10.20:8006
-  * HCI-1100-102 Setup Network bridging
-  * HCI-1100-103 Setup NFS to shared storage
-  * HCI-1100-104 Test Network Performance
-  * HCI-1100-105 Create Cloudinit Template
-  * HCI-1100-106 Install Docker host vm
+         
+      1. HCI-1100-102 Setup Network bridging
+      1. HCI-1100-103 Setup NFS to shared storage
+      1. HCI-1100-104 Test Network Performance
+      1. HCI-1100-105 Create Cloudinit Template
+      1. HCI-1100-106 Install Docker host vm
+     
 ### Install Docker host
 
 ```
